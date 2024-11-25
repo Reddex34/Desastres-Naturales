@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prevención y Seguridad</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .img-zoom {
+      cursor: zoom-in;
+    }
+
+    .modal-body img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Desastres Naturales y Artificiales</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="tipos_desastres.html">Tipos de Desastres</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="prevencion_seguridad.html">Prevención y Seguridad</a></li>
+          <li class="nav-item"><a class="nav-link" href="recursos_ayuda.html">Recursos y Ayuda</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Prevención y Seguridad</h1>
+    <p>La prevención es la clave para minimizar el impacto de los desastres naturales. Aprende cómo protegerte y salvaguardar a tus seres queridos.</p>
+  </header>
+
+  <section class="container py-5">
+    <h2 class="text-center mb-4">Consejos de Prevención por Tipo de Desastre</h2>
+    <div class="row gy-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/Recomendaciones-por-actividad-volcánica.jpg" class="card-img-top img-zoom" alt="Prevención para Erupciones Volcánicas" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-img="img/Recomendaciones-por-actividad-volcánica.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Erupción Volcánica</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check-circle text-success"></i> Conoce las rutas de evacuación.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Mantén un kit de emergencia.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Evita zonas cercanas a volcanes activos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/prevencionHuracanes.jpg" class="card-img-top img-zoom" alt="Prevención para Huracanes" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-img="img/prevencionHuracanes.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Huracán</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check-circle text-success"></i> Refuerza ventanas y puertas.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Ten provisiones de alimentos y agua.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Sigue las alertas meteorológicas.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/prevención-incendios.jpg" class="card-img-top img-zoom" alt="Prevención para Incendios Forestales" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-img="img/prevención-incendios.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Incendio Forestal</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check-circle text-success"></i> No dejes fogatas desatendidas.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Mantén el entorno limpio de materiales inflamables.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Ten extintores disponibles.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/precacuciones inundacion.jpg" class="card-img-top img-zoom" alt="Prevención para Inundaciones" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-img="img/precacuciones inundacion.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Inundación</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check-circle text-success"></i> Identifica zonas seguras lejos de ríos.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Guarda documentos importantes en bolsas impermeables.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Infórmate sobre niveles de agua en tu área.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/prec sequia.jpg" class="card-img-top img-zoom" alt="Prevención para Sequías" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-img="img/prec sequia.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Sequía</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check-circle text-success"></i> Reduce el consumo de agua.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Instala sistemas de recolección de agua.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Planta vegetación resistente a la sequía.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Terremoto -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/terremoto precausion.jpg" class="card-img-top img-zoom" alt="Prevención para Terremotos" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-img="img/terremoto precausion.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Terremoto</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check-circle text-success"></i> Sujeta bien los objetos pesados.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Ten una mochila con suministros básicos.</li>
+              <li><i class="fas fa-check-circle text-success"></i> Conoce las rutas de evacuación sísmicas.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="" id="modalImage" alt="Imagen de Desastre" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const modalImage = document.getElementById('modalImage');
+    const images = document.querySelectorAll('.img-zoom');
+
+    images.forEach(image => {
+      image.addEventListener('click', (event) => {
+        modalImage.src = event.target.dataset.bsImg;
+      });
+    });
+  </script>
+</body>
+</html>
