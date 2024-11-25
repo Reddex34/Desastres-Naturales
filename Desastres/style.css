@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ body {
     padding: 0 20px;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -55,7 +53,6 @@ body {
     border-radius: 5px;
 }
 
-/* Header Section */
 .header {
     background: url('header-bg.jpg') no-repeat center center/cover;
     color: white;
@@ -79,7 +76,6 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
-/* Sections */
 section {
     padding: 40px 0;
     max-width: 1200px;
@@ -102,7 +98,6 @@ section p {
     text-align: center;
 }
 
-/* Cards */
 .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -119,7 +114,6 @@ section p {
     object-fit: cover;
 }
 
-/* Listas */
 .list-group-item {
     font-size: 1.1em;
     border: none;
@@ -135,7 +129,6 @@ section p {
     color: #0a9396;
 }
 
-/* Tabla */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -163,7 +156,6 @@ table td a:hover {
     text-decoration: underline;
 }
 
-/* Buttons */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -184,7 +176,6 @@ table td a:hover {
     transform: scale(1.05);
 }
 
-/* Carrusel */
 .carousel-inner img {
     max-height: 400px;
     object-fit: cover;
@@ -192,7 +183,6 @@ table td a:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
 footer {
     background: linear-gradient(90deg, #005f73, #0a9396);
     color: white;
@@ -206,7 +196,6 @@ footer p {
     margin: 0;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
     .header h1 {
         font-size: 2em;
